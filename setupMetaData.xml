@@ -1,0 +1,52 @@
+<fieldPermissions xsi:type="met:ProfileFieldLevelSecurity">
+  <field>User.AFRA_IsPilot__c</field>
+  <editable>true</editable>
+</fieldPermissions>
+<tabVisibilities xsi:type="met:ProfileTabVisibility">
+<tab>Aviation_Home</tab>
+<visibility xsi:type="met:TabVisibility">DefaultOn</visibility>
+</tabVisibilities> 
+<layoutAssignments xsi:type="met:ProfileLayoutAssignment">
+  <recordType>AFRA_TRP__c.Approved_Trip</recordType>
+  <layout>AFRA_TRP__c-AFRA_TRP Approved</layout>
+</layoutAssignments>
+<layoutAssignments xsi:type="met:ProfileLayoutAssignment">
+  <recordType>AFRA_TRP__c.Canceled</recordType>
+  <layout>AFRA_TRP__c-AFRA_TRP Canceled</layout>
+</layoutAssignments>
+<layoutAssignments xsi:type="met:ProfileLayoutAssignment">
+  <recordType>AFRA_TRP__c.AFRA_Rework</recordType>
+  <layout>AFRA_TRP__c-AFRA_TRP Rework</layout>
+</layoutAssignments>
+<layoutAssignments xsi:type="met:ProfileLayoutAssignment">
+  <recordType>AFRA_TRP__c.Incomplete</recordType>
+  <layout>AFRA_TRP__c-AFRA_TRP Layout</layout>
+</layoutAssignments>
+<layoutAssignments xsi:type="met:ProfileLayoutAssignment">
+  <recordType>AFRA_TRP__c.Pending</recordType>
+  <layout>AFRA_TRP__c-AFRA_TRP Approved</layout>
+</layoutAssignments>
+<layoutAssignments xsi:type="met:ProfileLayoutAssignment">
+  <recordType>AFRA_SAFETY__c.AFRA_ST_Resolved</recordType>
+  <layout>AFRA_SAFETY__c-AFRA Safety Report Resolved</layout>
+</layoutAssignments>
+<layoutAssignments xsi:type="met:ProfileLayoutAssignment">
+  <recordType>AFRA_SAFETY__c.AFRA_ST_Sent_to_Contribution</recordType>
+  <layout>AFRA_SAFETY__c-AFRA Safety Report Sent to Admin</layout>
+</layoutAssignments>
+<layoutAssignments xsi:type="met:ProfileLayoutAssignment">
+  <recordType>AFRA_SAFETY__c.AFRA_ST_Rejected</recordType>
+  <layout>AFRA_SAFETY__c-AFRA Safety Report Reject</layout>
+</layoutAssignments>
+<layoutAssignments xsi:type="met:ProfileLayoutAssignment">
+  <recordType>AFRA_SAFETY__c.AFRA_ST_Approved</recordType>
+  <layout>AFRA_SAFETY__c-AFRA Safety Report Approved</layout>
+</layoutAssignments>
+<layoutAssignments xsi:type="met:ProfileLayoutAssignment">
+  <recordType>AFRA_SAFETY__c.AFRA_ST_Pending_Review</recordType>
+  <layout>AFRA_SAFETY__c-AFRA Safety Report Pending Review</layout>
+</layoutAssignments>
+<layoutAssignments xsi:type="met:ProfileLayoutAssignment">
+  <recordType>AFRA_SAFETY__c.AFRA_ST_Draft</recordType>
+  <layout>AFRA_SAFETY__c-Aviation Safety Report Layout</layout>
+</layoutAssignments>

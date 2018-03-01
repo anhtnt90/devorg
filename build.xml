@@ -1,0 +1,10 @@
+<project name="SharedPkg" default="devpull">
+
+	<property environment="env"/>
+    <property name="dataLoaderAPIVersion" value="40.0.0-uber" />
+    <property name="salesforceAPIVersion" value="40.0" />
+    <property file="build.properties"/>
+	
+	<import file="./sharedtargets.xml"/>
+	    
+</project>
