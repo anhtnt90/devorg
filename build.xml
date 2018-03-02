@@ -1,10 +1,5 @@
-<project name="SharedPkg" default="devpull">
-
-	<property environment="env"/>
-    <property name="dataLoaderAPIVersion" value="40.0.0-uber" />
-    <property name="salesforceAPIVersion" value="40.0" />
-    <property file="build.properties"/>
-	
-	<import file="./sharedtargets.xml"/>
-	    
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MyScheduleRxPkg" default="devpull">
+    <property file="../build.properties"/>
+    <import file="../SharedPkg/sharedtargets.xml"/>
 </project>
